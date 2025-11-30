@@ -1,0 +1,42 @@
+/* ContentComponent.css */
+
+.content-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: var(--space-xl) 0;
+  flex: 1
+}
+
+.section-title {
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-semibold);
+  margin-bottom: var(--space-md);
+  color: var(--color-primary);
+}
+
+.section-subtext {
+  font-size: var(--fs-md);
+  color: var(--color-gray);
+  margin-bottom: var(--space-lg);
+}
+
+.text-input {
+  margin: var(--space-md) 0px;
+  padding: 3px;
+}
+
+.search-btn {
+  padding: var(--space-xs);
+  margin-left: var(--space-xs);
+}
+.filter-btn{
+  padding: var(--space-xs);
+  margin-left: var(--space-lg);
+}
+/* Card listing */
+.card-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-lg);
+}

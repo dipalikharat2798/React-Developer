@@ -1,0 +1,33 @@
+
+/* Page wrapper for sticky footer */
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content should fill space */
+main {
+  flex: 1;
+}
+
+/* Layout container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Footer layout */
+.footer {
+  background: var(--color-dark);
+  color: var(--color-light);
+  padding: var(--space-lg) var(--space-md);
+  text-align: center;
+}
+
+/* Header layout (basic skeleton – detailed in component CSS) */
+.header-layout {
+  display: flex;
+  padding: var(--space-md) var(--space-lg);
+}

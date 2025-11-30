@@ -1,0 +1,21 @@
+/* 6-utilities.css */
+
+/* Flex utilities */
+.flex { display: flex; }
+.flex-between { display: flex; justify-content: space-between; }
+.flex-center { display: flex; justify-content: center; align-items: center; }
+.flex-column { display: flex; flex-direction: column; }
+
+/* Margin helpers */
+.m-sm { margin: var(--space-sm); }
+.m-md { margin: var(--space-md); }
+.m-lg { margin: var(--space-lg); }
+
+/* Padding helpers */
+.p-sm { padding: var(--space-sm); }
+.p-md { padding: var(--space-md); }
+
+/* Text helpers */
+.text-center { text-align: center; }
+.text-bold { font-weight: var(--fw-bold); }
+.text-primary { color: var(--color-primary); }

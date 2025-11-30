@@ -1,0 +1,25 @@
+/* 5-components.css */
+
+/* Button */
+.btn {
+  padding: 10px 18px;
+  background: var(--color-primary);
+  border-radius: var(--radius-md);
+  font-size: var(--fs-md);
+  font-weight: var(--fw-medium);
+  border: none;
+  cursor: pointer;
+  color: var(--color-light);
+  transition: opacity 0.2s ease;
+}
+.btn:hover {
+  opacity: 0.85;
+}
+
+/* Card component */
+.card {
+  background: var(--color-light);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  box-shadow: var(--shadow-sm);
+}

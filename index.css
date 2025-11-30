@@ -1,3 +1,7 @@
-#heading{
-    color: red;
-}
+@import "./src/pages/styles/settings.css";
+@import "./src/pages/styles/tools.css";
+@import "./src/pages/styles/base.css";
+@import "./src/pages/styles/layout.css";
+@import "./src/pages/styles/components.css";
+@import "./src/pages/styles/utilities.css";
+@import "./src/pages/styles/appStyle.css";

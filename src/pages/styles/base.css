@@ -1,0 +1,36 @@
+/* 3-base.css */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base */
+html, body {
+  font-family: var(--font-primary);
+  font-size: var(--fs-base);
+  background: var(--color-bg);
+  color: var(--color-dark);
+}
+
+/* Default typography */
+h1 { font-size: var(--fs-xxl); font-weight: var(--fw-bold); }
+h2 { font-size: var(--fs-xl); font-weight: var(--fw-semibold); }
+h3 { font-size: var(--fs-lg); font-weight: var(--fw-semibold); }
+h4 { font-size: var(--fs-md); font-weight: var(--fw-medium); }
+h5 { font-size: var(--fs-base); font-weight: var(--fw-medium); }
+h6 { font-size: var(--fs-sm); font-weight: var(--fw-regular); }
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+}

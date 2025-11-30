@@ -19,18 +19,20 @@
   "license": "ISC",
   "author": "Dipali Kharat",
   "scripts": {
-    "dev": "parcel index.html",
+    "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.1",
     "parcel": "^2.16.1"
   },
   "dependencies": {
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^6.30.2"
   },
-  "browserslist":[
-    "last 2 version of Chrome"
+  "browsersList": [
+    "last 10 version of Chrome"
   ]
 }
